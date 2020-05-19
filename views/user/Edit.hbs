@@ -1,0 +1,18 @@
+
+<form action="/user" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{user._id}}">
+    <div class="form-group">
+        <label>Назва функції</label>
+        <input type="text" class="form-control" name="fullName" placeholder="Назва функції" value="{{user.fullName}}">
+        <div class="text-danger">
+            {{user.fullNameError}}</div>
+    </div>
+    <div class="form-group">
+        <label>Функція</label>
+        <input type="text" class="form-control" name="name" placeholder="Функція" value="{{user.name}}">
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Добавити</button>
+    </div>
+</form>

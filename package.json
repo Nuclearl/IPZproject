@@ -5,22 +5,37 @@
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "test": "mocha --responsive --exit ",
+    "lite": "lite-server",
+    "serve": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "handlebars": "^4.5.0",
+    "jest": "^26.0.1",
+    "lite-server": "^2.5.4",
+    "mongodb-memory-server": "^6.6.0",
+    "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "-": "0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@handlebars/allow-prototype-access": "^1.0.3",
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
     "canvas": "^2.6.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "karma-coverage-istanbul-reporter": "^3.0.2",
     "mathjs": "^6.6.4",
-    "popper.js": "^1.12.9"
+    "mocha": "^7.1.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.14",
+    "popper.js": "^1.12.9",
+    "save": "^2.4.0"
   }
 }

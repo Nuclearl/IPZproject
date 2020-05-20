@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 var Schema = mongoose.Schema
 
 /**
- * @module order_model
+ * @module func.model
  */
 
 /**

@@ -7,13 +7,15 @@
     "start": "npm run lite",
     "test": "mocha --responsive --exit ",
     "lite": "lite-server",
-    "serve": "nodemon server.js"
+    "serve": "nodemon server.js",
+    "doc": "jsdoc -c jsdoc.json"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "handlebars": "^4.5.0",
     "jest": "^26.0.1",
+    "jsdoc": "^3.6.4",
     "lite-server": "^2.5.4",
     "mongodb-memory-server": "^6.6.0",
     "nodemon": "^2.0.4"

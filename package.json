@@ -24,7 +24,7 @@
     "-": "0.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@handlebars/allow-prototype-access": "^1.0.3",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "bootstrap-social": "^5.1.1",
     "canvas": "^2.6.1",
     "express": "^4.17.1",
